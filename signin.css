@@ -1,0 +1,60 @@
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    background: linear-gradient(45deg, rgb(233,232,228),rgb(244,243,236));
+ 
+}
+.container {
+    width: 350px;
+    height: 700px;
+    border-radius: 40px;
+    margin-top: 70px;
+    background-color: #fefdf9;
+    overflow: hidden;
+    box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.2);
+    background-color: rgb(167, 194, 154);
+}
+
+span.note {
+    font-weight: 600;
+    font-size: 2em;
+    color: white;
+    margin-top: 20px;
+}
+input[type="text"] {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    background: transparent;
+}
+input[type="password"] {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    background: transparent;
+}
+
+div.sign-in-btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(to top right, #232529,#7f8084);
+}
+
+span.big {
+    font-weight: 900;
+    font-size: 1.2em;
+    color:#42484f;
+}
+
+span.underline {
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 0.8em;
+}
+
